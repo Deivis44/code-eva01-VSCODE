@@ -1,0 +1,32 @@
+
+    {
+    "name": "evan01",
+    "displayName": "evan01",
+    "description": "mecha eva 01 theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "eva-01 perfect",
+                "uiTheme": "vs-dark",
+                "path": "./themes/eva-01 perfect-color-theme.json"
+            }
+        ]
+    },
+    "icon": "https://www.pikpng.com/downpngs/hbTRJbo_eva-01-evangelion-eva-01-png-clipart/",
+    "author": {
+        "name": "David Muñoz",
+        "email": "david20041124@gmail.com"
+    },
+    "repository": {
+        "url":"https://github.com/Deivis44/code-eva01-VSCODE.git",
+        "type": "git"
+    },
+    "publisher": "codigo-tecsup"
+    }
