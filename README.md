@@ -1,13 +1,15 @@
-# README
-## This is the README for your extension "evan01"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# EVA-01 · Tema para VS Code
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+Tema oscuro inspirado en la paleta del EVA-01. El repositorio contiene la configuración de colores de la interfaz y del resaltado de sintaxis.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Probarlo localmente
 
-**Enjoy!**
+1. Abre la carpeta del repositorio en VS Code. El manifiesto declara compatibilidad desde la versión 1.65 dentro de la serie 1.x.
+2. Pulsa `F5` para ejecutar la configuración **Extension** y abrir una segunda ventana (*Extension Development Host*).
+3. En esa ventana, abre la paleta, elige **Preferences: Color Theme** y selecciona **eva-01 perfect**.
+
+## Ajustar la paleta
+
+El [archivo del tema](themes/eva-01%20perfect-color-theme.json) define los colores de la interfaz y la sintaxis. [`package.json`](package.json) registra el tema y [`.vscode/launch.json`](.vscode/launch.json) configura la prueba local.
+
+[Guía de temas de VS Code](https://code.visualstudio.com/api/extension-guides/color-theme)
